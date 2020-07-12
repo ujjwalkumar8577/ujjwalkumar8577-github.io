@@ -4,3 +4,11 @@
 img {
   border-radius: 50%;
 }
+.jumbotron {
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.other-type {
+  align-content: right;
+}
