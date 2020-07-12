@@ -10,5 +10,8 @@ img {
   padding-bottom: 20%;
 }
 .other-type {
-  align-content: right;
+  align-items: right;
+}
+.my-form {
+  margin: 20px;
 }
