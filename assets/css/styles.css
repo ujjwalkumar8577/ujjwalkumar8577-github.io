@@ -6,8 +6,6 @@ img {
 }
 .jumbotron {
   background-size: cover;
-  padding-top: 10%;
-  padding-bottom: 10%;
 }
 .other-type {
   align-items: flex-end;
