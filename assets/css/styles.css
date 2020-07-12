@@ -17,3 +17,9 @@ img {
   margin-left: 50px;
   margin-right: 50px;
 }
+.my-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
