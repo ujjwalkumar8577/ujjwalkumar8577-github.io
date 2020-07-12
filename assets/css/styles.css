@@ -6,9 +6,11 @@ img {
 }
 .jumbotron {
   background-size: cover;
+  padding-bottom: 10%;
 }
 .other-type {
   align-items: flex-end;
+  text-align: end;
 }
 .my-form {
   margin-left: 50px;
