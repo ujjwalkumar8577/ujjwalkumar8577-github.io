@@ -20,3 +20,9 @@ img {
 .my-image {
   text-align: center;
 }
+.social {
+  display: inline-block;
+  line-height: 60px;
+  font-size: 18px;
+  padding: 0 5px;
+}
