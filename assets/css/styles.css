@@ -1,43 +1,32 @@
-body {
-  background-color: ghostwhite;
-  /* font-family: 'Lobster', cursive; */
-}
-
-.new-section {
-  min-height: 100%;
-  height: 100%;
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .round-img {
   border-radius: 50%;
-  border: 4px solid grey;
+  border: 4px solid rgb(255, 255, 255);
 }
 
 .jumbotron {
-  background-image: url("../images/back.jpg");
-  /* enable for full image */
+  /* background: linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(47,47,162,0.9224732129179797) 32%, rgba(0,212,255,1) 100%); */
+  background-image: url(../img/back.jpg);
   background-size: cover;
   padding-bottom: 15%;
   padding-top: 15%;
+  border-radius: 0;
 }
 
-.my-form {
-  margin-left: 50px;
-  margin-right: 50px;
+.carousel-item {
+  height: 70vh;
 }
 
-.new-img {
-  margin-left: 500px;
-  margin-right: 20px;
-  align-self: center;
+.carousel-control-next {
+  right: 10%;
 }
 
-.for-right-margin {
-  margin-right: 20px;
-}
-
-.for-top-margin {
-  margin-top: 20px;
+.carousel-control-prev {
+  left: 10%;
 }
 
 .icon {
@@ -46,29 +35,49 @@ body {
   height: 40px;
 }
 
-.custom-hr {
-  background: grey;
-  height: 3px;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  opacity: 0.6;
-  box-shadow: 0px 3px 3px grey;
-}
-
-.carousel {
-  margin-left: auto;
-  margin-right: auto;
-  max-height: 80%;
-}
-
-.my-heading {
-  margin-top: 20px;
-  margin-bottom: 50px;
+.nav-item a:hover {
+  border-bottom: 2px solid #F64C72;
+  /* background-color: #F64C72; */
 }
 
 .nav-img1 {
   width: 40px;
+}
+
+.image-box {
+  height: 70vh;
+}
+
+footer {
+  word-spacing: 0.5ch;
+  border-top-left-radius: 80%;
+}
+
+.bg-custom1 {
+  background-color: #242582;
+}
+
+.bg-custom4 {
+  background-color: #d1e8e2c5;
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+.bg-custom5 {
+  background-color: #84CEEB;
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+.bg-custom6 {
+  background-color: #FEFFFF;
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+.bg-custom7 {
+  border: 2px solid #ffffff;
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.bg-custom8 {
+  background-color: #DEF2F1;
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
 }
