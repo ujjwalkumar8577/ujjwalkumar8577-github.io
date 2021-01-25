@@ -1,3 +1,7 @@
+* {
+  user-select: none;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -18,8 +22,17 @@ a {
   min-height: 100vh;
 }
 
+.projects-carousel {
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100px;
+}
+
 .carousel-item {
-  height: 70vh;
+  height: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .carousel-control-next {
@@ -31,7 +44,7 @@ a {
 }
 
 .icon {
-  margin-inline-start: 20px;
+  margin-right: 20px;
   width: 40px;
   height: 40px;
 }
@@ -74,8 +87,7 @@ footer {
 
 .bg-custom6 {
   background-color: #FEFFFF;
-  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  background: linear-gradient(90deg, #00C9FF 0%, #111c57 100%);
 }
 
 .bg-custom7 {
@@ -97,4 +109,17 @@ footer {
   top: 0;
   z-index: 1000;
   width: 100%;
+}
+
+.invert-color {
+  filter: invert(0.8);
+}
+
+.invert-color:hover {
+  filter: invert(1);
+}
+
+.codechef {
+  filter: grayscale(1);
+  filter: invert(1);
 }
