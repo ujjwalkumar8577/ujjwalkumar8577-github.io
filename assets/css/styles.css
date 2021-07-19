@@ -43,6 +43,36 @@ a {
   left: 10%;
 }
 
+#project {
+  background: rgb(240, 236, 236);
+  opacity: 0.98;
+  width: calc(100% - 60px);
+  height: calc(100% - 100px);
+  position: fixed;
+  top: 70px;
+  left: 30px;
+  padding: 10px;
+  visibility: hidden;
+}
+
+#project-title {
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: x-large;
+}
+
+#project-desc1 {
+  font-weight: 500;
+}
+
+#project-desc2 {
+  font-weight: 300;
+}
+
+#project1, #project2, #project3 {
+  cursor: pointer;
+}
+
 .icon {
   margin-right: 20px;
   width: 40px;

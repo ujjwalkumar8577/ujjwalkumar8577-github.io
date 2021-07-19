@@ -1,0 +1,31 @@
+{
+    "projects" :
+    [
+        {
+            "title" : "Q-Kart",
+            "img" : "assets/img/project-img-1.png",
+            "desc1" : "An android platform for home delivery of goods on the same day from nearby shops.",
+            "desc2" : "Technologies & Tools : Android Studio, Firebase Authentication, Firebase Realtime Database, Firebase Storage, Google Maps API",
+            "github" : "https://github.com/ujjwalkumar8577/QKart",
+            "demo" : "#"
+        },
+        
+        {
+            "title" : "Gamezone",
+            "img" : "assets/img/project-img-2.png",
+            "desc1" : "A collection of games made with HTML, CSS & Javascript.",
+            "desc2" : "Technologies & Tools : HTML, CSS, Javascript",
+            "github" : "https://github.com/ujjwalkumar8577/Games",
+            "demo" : "#"
+        },
+
+        {
+            "title" : "Contestaholic",
+            "img" : "assets/img/project-img-3.png",
+            "desc1" : "A web app developed using HTML, CSS, and JS to get the schedule of all coding competitions.",
+            "desc2" : "Technologies & Tools : HTML, CSS, Javascript",
+            "github" : "https://github.com/ujjwalkumar8577/Contestaholic",
+            "demo" : "#"
+        }
+    ]
+}
