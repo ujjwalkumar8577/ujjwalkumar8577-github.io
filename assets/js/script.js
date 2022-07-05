@@ -1,10 +1,53 @@
-// Sticky navbar
 $(document).ready(function () {
+    
+    $(window).scroll(function() {
+        var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+        var top_of_screen = $(window).scrollTop();
+        for(let i=1; i<=5; i++) {
+            $("#link"+i).removeClass('active');
+        }
+
+        var top_of_element = $("#header").offset().top;
+        var bottom_of_element = $("#header").offset().top + $("#header").outerHeight();
+        if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)) {
+            $("#link1").addClass('active');
+            return;
+        }
+
+        var top_of_element = $("#about").offset().top;
+        var bottom_of_element = $("#about").offset().top + $("#about").outerHeight();
+        if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)) {
+            $("#link2").addClass('active');
+            return;
+        }
+
+        var top_of_element = $("#projects").offset().top;
+        var bottom_of_element = $("#projects").offset().top + $("#projects").outerHeight();
+        if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)) {
+            $("#link3").addClass('active');
+            return;
+        }
+
+        var top_of_element = $("#portfolio").offset().top;
+        var bottom_of_element = $("#portfolio").offset().top + $("#portfolio").outerHeight();
+        if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)) {
+            $("#link4").addClass('active');
+            return;
+        }
+
+        var top_of_element = $("#contact").offset().top;
+        var bottom_of_element = $("#contact").offset().top + $("#contact").outerHeight();
+        if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)) {
+            $("#link5").addClass('active');
+            return;
+        }
+
+    })
 
     var projects = null;
     $.getJSON("project.json", function(json) {
         projects = json;
-        console.log(projects);
+        // console.log(projects);
     });
 
     link1 = document.getElementById('link1');
@@ -103,6 +146,16 @@ $(document).ready(function () {
 
     project3.onclick = function() {        
         var p = projects["projects"][2];
+        loadProject(p);
+    }
+
+    project4.onclick = function() {        
+        var p = projects["projects"][3];
+        loadProject(p);
+    }
+
+    project5.onclick = function() {        
+        var p = projects["projects"][4];
         loadProject(p);
     }
 

@@ -4,7 +4,6 @@
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 .round-img {
@@ -13,13 +12,12 @@ a {
 }
 
 .jumbotron {
-  /* background: linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(47,47,162,0.9224732129179797) 32%, rgba(0,212,255,1) 100%); */
-  background-image: url(../img/back.jpg);
+  background-image: url(../img/layeredwavesbg.png);
   background-size: cover;
+  background-position: bottom;
   padding-bottom: 15%;
   padding-top: 15%;
   border-radius: 0;
-  min-height: 100vh;
 }
 
 .projects-carousel {
@@ -69,7 +67,7 @@ a {
   font-weight: 300;
 }
 
-#project1, #project2, #project3 {
+#project1, #project2, #project3, #project4, #project5 {
   cursor: pointer;
 }
 
@@ -84,7 +82,7 @@ nav {
 }
 
 .nav-item>a:hover, nav .active {
-  border-bottom: 2px solid #F64C72;
+  border-bottom: 2px solid whitesmoke;
 }
 
 .nav-img1 {
@@ -96,39 +94,17 @@ nav {
 }
 
 footer {
+  background-color: #0099ff;
   word-spacing: 0.5ch;
 }
 
 .bg-custom1 {
-  background-color: #242582;
-}
-
-.bg-custom4 {
-  background-color: #d1e8e2c5;
-  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
-  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
-}
-
-.bg-custom5 {
-  background-color: #84CEEB;
-  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
-  background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
-}
-
-.bg-custom6 {
-  background-color: #FEFFFF;
-  background: linear-gradient(90deg, #00C9FF 0%, #111c57 100%);
+  background-color: #0099ff;
 }
 
 .bg-custom7 {
   border: 2px solid #ffffff;
-  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
-}
-
-.bg-custom8 {
-  background-color: #DEF2F1;
-  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
-  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+  background: linear-gradient(180deg, #0099ff 0%, #182848 100%);
 }
 
 /*sticky header position*/

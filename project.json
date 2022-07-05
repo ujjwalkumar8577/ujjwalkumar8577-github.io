@@ -26,6 +26,24 @@
             "desc2" : "Technologies & Tools : HTML, CSS, Javascript",
             "github" : "https://github.com/ujjwalkumar8577/Contestaholic",
             "demo" : "#"
+        },
+
+        {
+            "title" : "Easy Biz",
+            "img" : "assets/img/project-img-1.png",
+            "desc1" : "An android distribution management system to help suppliers deliver efficiently.",
+            "desc2" : "Technologies & Tools : Android Studio, Firebase Authentication, Firebase Realtime Database, Firebase Storage, Google Maps API",
+            "github" : "https://github.com/ujjwalkumar8577/EasyBiz",
+            "demo" : "#"
+        },
+
+        {
+            "title" : "Tic Tac Toe",
+            "img" : "assets/img/project-img-1.png",
+            "desc1" : "An android 2 player tic tac toe game.",
+            "desc2" : "Technologies & Tools : Android Studio, Firebase Authentication, Firebase Realtime Database, Firebase Storage, ZXing",
+            "github" : "https://github.com/ujjwalkumar8577/EasyBiz",
+            "demo" : "#"
         }
     ]
 }
