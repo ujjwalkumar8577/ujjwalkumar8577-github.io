@@ -2,21 +2,21 @@
     "projects" :
     [
         {
-            "title" : "Q-Kart",
+            "title" : "EPlacements",
             "img" : "assets/img/project-img-1.png",
+            "desc1" : "An android app with a custom nodeJS backend for MNNIT Final year students for their placements.",
+            "desc2" : "Technologies & Tools : Android Studio, NodeJS, MongoDB, JWT, Volley, FCM Notifications, Firebase Storage",
+            "github" : "https://github.com/ujjwalkumar8577/EPlacements",
+            "demo" : "https://youtu.be/rSkGNcduMUQ"
+        },
+
+        {
+            "title" : "Q-Kart",
+            "img" : "assets/img/project-img-2.png",
             "desc1" : "An android platform for home delivery of goods on the same day from nearby shops.",
             "desc2" : "Technologies & Tools : Android Studio, Firebase Authentication, Firebase Realtime Database, Firebase Storage, Google Maps API",
             "github" : "https://github.com/ujjwalkumar8577/QKart",
-            "demo" : "#"
-        },
-        
-        {
-            "title" : "Gamezone",
-            "img" : "assets/img/project-img-2.png",
-            "desc1" : "A collection of games made with HTML, CSS & Javascript.",
-            "desc2" : "Technologies & Tools : HTML, CSS, Javascript",
-            "github" : "https://github.com/ujjwalkumar8577/Games",
-            "demo" : "#"
+            "demo" : "https://youtu.be/S8hcn7z3Kjk"
         },
 
         {
@@ -25,24 +25,33 @@
             "desc1" : "A web app developed using HTML, CSS, and JS to get the schedule of all coding competitions.",
             "desc2" : "Technologies & Tools : HTML, CSS, Javascript",
             "github" : "https://github.com/ujjwalkumar8577/Contestaholic",
+            "demo" : "https://youtu.be/uw6bguqvqKc"
+        },
+
+        {
+            "title" : "Gamezone",
+            "img" : "assets/img/project-img-4.png",
+            "desc1" : "A collection of games made with HTML, CSS & Javascript.",
+            "desc2" : "Technologies & Tools : HTML, CSS, Javascript",
+            "github" : "https://github.com/ujjwalkumar8577/GameZone",
             "demo" : "#"
         },
 
         {
             "title" : "Easy Biz",
-            "img" : "assets/img/project-img-1.png",
+            "img" : "assets/img/project-img-5.png",
             "desc1" : "An android distribution management system to help suppliers deliver efficiently.",
             "desc2" : "Technologies & Tools : Android Studio, Firebase Authentication, Firebase Realtime Database, Firebase Storage, Google Maps API",
             "github" : "https://github.com/ujjwalkumar8577/EasyBiz",
-            "demo" : "#"
+            "demo" : "https://youtu.be/ZyePAP6EUNQ"
         },
 
         {
             "title" : "Tic Tac Toe",
-            "img" : "assets/img/project-img-1.png",
+            "img" : "assets/img/project-img-6.png",
             "desc1" : "An android 2 player tic tac toe game.",
             "desc2" : "Technologies & Tools : Android Studio, Firebase Authentication, Firebase Realtime Database, Firebase Storage, ZXing",
-            "github" : "https://github.com/ujjwalkumar8577/EasyBiz",
+            "github" : "https://github.com/ujjwalkumar8577/TicTacToe",
             "demo" : "#"
         }
     ]

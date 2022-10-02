@@ -104,7 +104,9 @@ footer {
 
 .bg-custom7 {
   border: 2px solid #ffffff;
-  background: linear-gradient(180deg, #0099ff 0%, #182848 100%);
+  background-color: #0099ff;
+  opacity: 85%;
+  border-radius: 1em;
 }
 
 /*sticky header position*/
