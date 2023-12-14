@@ -62,6 +62,7 @@ a {
   left: 30px;
   padding: 10px;
   visibility: hidden;
+  z-index: 10;
 }
 
 #project-title {
